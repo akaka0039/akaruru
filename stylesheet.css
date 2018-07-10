@@ -1,5 +1,33 @@
 header{
   height: 90px;
-  background-color:#26d0c9;
-  color:#fff;
+  background-color:#FF0;
+  color:###;
+}
+
+.header-logo{
+  float: left;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.header-left li{
+  list-style: none;
+  float: left;
+  padding: 10px;
+}
+
+.header-right a{
+  float: right;
+  height: 30px;
+
+}
+
+main{
+  height: 120px;
+  background-color: #0FF;
+}
+
+footer{
+  height: 50px;
+  background-color: #0F0
 }
