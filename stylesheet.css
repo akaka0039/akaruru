@@ -1,33 +1,68 @@
+
+body{
+  margin: 0px;
+}
+
 header{
+  width: 100%;
   height: 90px;
-  background-color:#FF0;
-  color:###;
+
+  color: #fff;
+  background-color: #000;
 }
 
 .header-logo{
   float: left;
-  padding: 10px;
+  padding: 20px;
   font-size: 20px;
+
 }
 
 .header-left li{
   list-style: none;
   float: left;
   padding: 10px;
+
+
 }
 
 .header-right a{
   float: right;
   height: 30px;
-
+  padding: 30px;
+  :
 }
 
 main{
-  height: 120px;
-  background-color: #0FF;
+  width: 100%;
+  height: auto;
 }
 
-footer{
-  height: 50px;
-  background-color: #0F0
+
+.main-img{
+  width: 100%;
+  height: 480px;
+  background-image: url('./image/Photoelly042.jpg');
+  background-repeat: no-repeat;
+  background-attachment: auto;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 10px
+}
+
+main h2{
+  float: left;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.contents{
+  display: inline-block;
+  padding: 20px;
+  
+}
+
+.contents-text{
+  float:left;
+  margin-top: 210px;
 }
