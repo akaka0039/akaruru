@@ -13,15 +13,14 @@ header{
 
 .header-logo{
   float: left;
-  padding: 20px;
-  font-size: 20px;
+  height: 90px;
 
 }
 
 .header-left li{
   list-style: none;
   float: left;
-  padding: 10px;
+  padding: 0px 30px;
 
 
 }
@@ -50,19 +49,47 @@ main{
   margin-bottom: 10px
 }
 
-main h2{
+
+span{
   float: left;
   margin-top: 20px;
-  padding-left: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+
+.content{
+  display: inline-block;
+  text-align: center;
 }
 
 .contents{
+  float: left;
+  margin-top: 80px;
+  cursor: pointer;
+
+  }
+
+  .contents-text{
+    float: left;
+    text-align: left;
+    margin-top: 90px;
+    cursor: pointer;
+    padding: 0px 20px;
+  }
+
+
+.contents-2{
   display: inline-block;
-  padding: 20px;
-  
+  float: left;
+  margin-top: 30px;
+  cursor: pointer;
 }
 
-.contents-text{
-  float:left;
-  margin-top: 210px;
+.contents-text-2{
+  float: left;
+  margin-top: 10px;
+  padding: 0px 20px;
+  cursor: pointer;
 }
