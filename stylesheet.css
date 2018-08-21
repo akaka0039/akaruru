@@ -64,32 +64,65 @@ span{
   text-align: center;
 }
 
+.content:hover{
+  color:
+}
+
 .contents{
   float: left;
-  margin-top: 80px;
+  width: auto;
+  margin-top: 90px;
   cursor: pointer;
 
   }
 
-  .contents-text{
-    float: left;
-    text-align: left;
-    margin-top: 90px;
-    cursor: pointer;
-    padding: 0px 20px;
-  }
+.contents-text{
+      float: left;
+      text-align: left;
+      margin-top: 90px;
+      cursor: pointer;
+      padding: 0px 20px;
+    }
+
+
 
 
 .contents-2{
   display: inline-block;
   float: left;
-  margin-top: 30px;
+  width: auto;
+  margin-top: 50px;
   cursor: pointer;
 }
 
 .contents-text-2{
   float: left;
+  width: auto;
   margin-top: 10px;
   padding: 0px 20px;
   cursor: pointer;
+}
+
+
+.contents-3{
+  display: inline-block;
+  float: left;
+  margin-top: 30px;
+  cursor: pointer;
+  width: auto;
+}
+
+.contents-text-3{
+  float: left;
+  width: auto;
+  margin-top: 10px;
+  padding: 0px 20px;
+  cursor: pointer;
+}
+
+footer{
+  color: #fff;
+  background-color: #000;
+  width:100%;
+  height: 90px;
 }
